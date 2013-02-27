@@ -9,8 +9,7 @@ class Message < ActiveRecord::Base
   
   # class method to get messages from service "http://adaptive-test-api.herokuapp.com/tweets.json" 
   # then store it into database
-  def self.get_messages
-    messages = MessageFetch.get_messages_from_services(SERVICE_URL)    
+  def self.get_messages(messages = MessageFetch.get_messages_from_services(SERVICE_URL))
     unless messages.nil?
       self.process_messages(messages)
     else
