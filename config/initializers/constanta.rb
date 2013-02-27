@@ -1,0 +1,1 @@
+SERVICE_URL = "http://adaptive-test-api.herokuapp.com/tweets.json"

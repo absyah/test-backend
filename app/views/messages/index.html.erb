@@ -1,0 +1,17 @@
+<%= link_to "Fetch more messages", fetch_message_messages_path %>
+<table>
+  <tr>
+    <th>User Handle</th>
+    <th>Message</th>
+    <th>Sentiment</th>
+    <th>Count</th>
+  </tr>
+    <% @messages.each do |message|%>
+    <tr>
+      <td><%= h message.user_handle %></td>
+      <td><%= highlight_words message.message %></td>
+      <td><%= h message.sentiment %></td>
+      <td><%= h message.count %></td>
+    </tr>
+    <% end %>    
+</table>

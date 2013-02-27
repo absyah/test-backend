@@ -1,0 +1,15 @@
+/* 
+    Document   : application
+    Created on : Feb 27, 2013, 6:46:02 PM
+    Author     : wgs-lap011
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+  display: block;
+}
+
+span.red {
+  color: red;
+}

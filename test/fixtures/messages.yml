@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+
+one:
+    created_at: "2012-09-27T16:11:44Z"
+    followers: 345
+    id: 4
+    message: "Who likes coca-cola?"
+    sentiment: 0
+    updated_at: "2012-09-27T16:11:44Z"
+    user_handle: "@questionnr"
+two:
+  name: Steve Ross
+  birthday: 1982-03-20
+  profession: system anal
